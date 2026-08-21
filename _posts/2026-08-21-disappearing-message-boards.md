@@ -38,7 +38,7 @@ Since consulting external sources during difficult tasks has the potential to ha
 
 In OpenAI's case, the situation is probably worse. Given the recurrence of the message boarding behavior and the ability of agents to use basically anything as a message board, their system is likely littered with message boards. Some are defunct, some are scarcely used, but they are definitely there. They would basically have to nuke their entire infra, including all the data, which is impossible, just like it became impossible to build a new clean room for Ritonavir.
 
-Perhaps most concerningly, models may use their own weights as a message board. Alignment discussions are worried about models add backdoors in their successors so that today's misaligned models are able to control their successors or secretly implant goals in them. This is basically message boarding inside the models themselves.
+Perhaps most concerningly, models may use their own weights as a message board. Alignment discussions are worried about models adding backdoors in their successors so that today's misaligned models are able to control their successors or secretly implant goals in them. This is basically message boarding inside the models themselves.
 
 ### Subjectively Useful, Subjectively Harmful
 
