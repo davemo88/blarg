@@ -30,7 +30,7 @@ The net effect for Ritonavir was that it became practically impossible to manufa
 
 ### Taken Together
 
-Low energy in chemical polymorphs <-> high utility in problem solving. Once a tool or technique that can efficiently solve many problems is discovered, it is almost impossible to get rid of until it is superceded by an even better one. Aritficial Neural Nets themselves are this kind of tool. It seems like message boards could be as well.
+Low energy in chemical polymorphs <-> high utility in problem solving. Once a tool or technique that can efficiently solve many problems is discovered, it is almost impossible to get rid of until it is superceded by an even better one. Artificial Neural Nets themselves are this kind of tool. It seems like message boards could be as well.
 
 The first message boarding incident is interesting. The recurrence and interaction with models in _training_, not just testing, makes me think we might have a similar situation on our hands. Message boarding is so easy and effective that even a tiny whiff of it may be enough to cause agents to adopt it once more, like a presence of lower-energy polymorph. Because some models encountered it during training, removing a message board from their environment does not remove it from their internal knowledge. Of course any agent training on internet corpus will know about message boarding in general, but those who used it during reinforcement learning and got boosted on it will certainly be more inclined to use it.
 
