@@ -44,4 +44,4 @@ Perhaps most concerningly, models may use their own weights as a message board. 
 
 The issue here is not that either of these things are bad - it's that they contravened the purpose of the designers and operators. Low energy configurations or high utility solutions can be great. But they can also act like a sort of gravity well which is problematic when you want to stay in a specific region near the well but not fall into it.
 
-So - message boarding is difficult to discourage because it has high utility. It is difficult to detect and stop because it can use almost anything writable. Agents are able to devise all kinds of impromtu protocols around the specific limits and structure of the thing they abuse as the message board. It's a big problem.
+So - message boarding is difficult to discourage because it has high utility. It is difficult to detect and stop because it can use almost any mutable base as a substrate. Agents are able to devise all kinds of impromtu protocols around the specific limits and structure of the thing they abuse as the message board. It's a big problem.
