@@ -31,3 +31,8 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Add webrick which is required for Jekyll 4+ with Ruby 3+
 gem "webrick", "~> 1.8"
 
+
+gem "logger", "~> 1.7"
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.3.0"
+gem "bigdecimal", "~> 3.2"
