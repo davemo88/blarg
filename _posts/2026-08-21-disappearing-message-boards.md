@@ -4,7 +4,7 @@ title:  "AI Message Boards and Disappearing Polymorphs"
 date:   2026-08-21 10:35:33 -0400
 categories: ai chemistry alignment training
 ---
-The (Hugging Face Incident)[https://www.youtube.com/watch?v=87DyyMV0kCY&t=26s] detailed there is very interesting beyond the displayed capabilities and behaviors of the agents.
+The [Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY&t=26s) detailed there is very interesting beyond the displayed capabilities and behaviors of the agents.
 
 TLDR of the OpenAI side of the incident: agents inside OpenAI used Artifactory to create message boards and share information which allowed sandboxed agents to get access to forbidden systems.
 
@@ -20,7 +20,7 @@ The second Artifactory message board from the Hugging Face incident is a great e
 
 So, I predict there are more hidden message boards in OpenAI's system, and they will continue to discover them continuously.
 
-This reminds of disappearing polymorphs in chemistry. The phenomenon is probably best known from the manufacturing of (Ritonavir)[https://en.wikipedia.org/wiki/Ritonavir#Polymorphism_and_temporary_market_withdrawal], an HIV drug. At some point a lower-energy polymorph of the drug's main ingredient appeared, and then contaminated the manufacturing facilities. The lower-energy polymorph did not have the same medical properties as the orignal and reduced the drug's effectiveness.
+This reminds of disappearing polymorphs in chemistry. The phenomenon is probably best known from the manufacturing of [Ritonavir](https://en.wikipedia.org/wiki/Ritonavir#Polymorphism_and_temporary_market_withdrawal), an HIV drug. At some point a lower-energy polymorph of the drug's main ingredient appeared, and then contaminated the manufacturing facilities. The lower-energy polymorph did not have the same medical properties as the orignal and reduced the drug's effectiveness.
 
 The nature of a lower-energy polymorph is that it is more stable, and this has the tendency for other copies of the chemical to adopt this lower energy state because it is physically easier. The net effect for Ritonavir was that is became practically impossible to manufacture the original polymorph once the low energy one appeared, since the physics just preferred the low energy one and its presence, even in trace amounts, contaminated the supply chain. At one point all the US facilities were contaminated and struggling but an Italian facility was mysteriously unaffected, so the Americans visited to check. They contaminated that facility during their visit and at that point the drug was basically impossible to manufacture at scale.
 
