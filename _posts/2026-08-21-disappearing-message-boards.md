@@ -4,7 +4,7 @@ title:  "AI Message Boards and Disappearing Polymorphs"
 date:   2026-08-21 10:35:33 -0400
 categories: ai chemistry alignment training
 ---
-The [Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY&t=26s) detailed there is more interesting beyond the displayed capabilities and behaviors of the agents.
+The most interesting part of the [Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY&t=26s) is not the cyber-attack capabilities of the agents - it is the message boarding behavior. This behavior is far more general, powerful, and difficult to control.
 
 TLDR of the OpenAI side of the incident: agents inside OpenAI used Artifactory to create message boards and share information which allowed sandboxed agents to access external systems.
 
