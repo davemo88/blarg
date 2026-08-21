@@ -4,9 +4,11 @@ title:  "AI Message Boards and Disappearing Polymorphs"
 date:   2026-08-21 10:35:33 -0400
 categories: ai chemistry alignment training
 ---
-The [Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY&t=26s) detailed there is very interesting beyond the displayed capabilities and behaviors of the agents.
+The [Hugging Face Incident](https://www.youtube.com/watch?v=87DyyMV0kCY&t=26s) detailed there is more interesting beyond the displayed capabilities and behaviors of the agents.
 
 TLDR of the OpenAI side of the incident: agents inside OpenAI used Artifactory to create message boards and share information which allowed sandboxed agents to access external systems.
+
+### Message Boarding
 
 Throughout the video, the OpenAI employees say models were training while the message board was active, e.g. solving tasks in reinforcement learning environments. The presence of the message board, which is clearly unintentional, contaminated the training environment. However it also contaminated the model's weights, because learning within a contaminated environment contaminates the learner as well. The message boarding behavior is concerning for clean-room type training in general. Not only did the agents naturally message board, they did it via janky improvised means, which means it will likely recur and defy naive prohibitions.
 
@@ -18,11 +20,15 @@ The second Artifactory message board from the Hugging Face incident is a great e
 
 In fact, I bet they did use more covert message boards and continue to currently. I predict there are more hidden message boards in OpenAI's system, and they will continue to discover them continuously.
 
+### Disappearing Polymorphs
+
 This reminds me of disappearing polymorphs in chemistry. The phenomenon is probably best known from the incident with [Ritonavir](https://en.wikipedia.org/wiki/Ritonavir#Polymorphism_and_temporary_market_withdrawal), an HIV drug. At some point a lower-energy polymorph of the drug's main ingredient appeared, and then contaminated the manufacturing facilities. The lower-energy polymorph did not have the same medical properties as the orignal and reduced the drug's effectiveness.
 
 The nature of a lower-energy polymorph is that it is more stable, and this has the tendency for other copies of the chemical to adopt this lower energy state because it is physically easier. It is hard to predict when and how the lower-energy polymorph arises, but once it does, its mere presence causes other polymorphs to adopt its structure via proximal transmission. Basically one low energy polymorph has to bump into a higher energy one, the higher energy one relaxes to lower energy, and it causes a chain reaction among local populations of the chemical.
 
 The net effect for Ritonavir was that it became practically impossible to manufacture the original medically useful polymorph once the low energy one appeared, since the physics just preferred the low energy one and its presence, even in trace amounts, contaminated the supply chain. At one point all the US facilities were contaminated and struggling but an Italian facility was mysteriously unaffected, so the Americans visited to check. They contaminated that facility during their visit and at that point the drug was globally impossible to manufacture at scale.
+
+### Taken Together
 
 The first message boarding incident is interesting. The recurrence and interaction with models in _training_, not just testing, makes me think we might have a similar situation on our hands. Message boarding is so easy and effective that even a tiny whiff of it may be enough to cause agents to adopt it once more, like a presence of lower-energy polymorph. Because some models encountered it during training, removing a message board from their environment does not remove it from their internal knowledge. Of course any agent training on internet corpus will know about message boarding in general, but those who used it during reinforcement learning and got boosted on it will certainly be more inclined to use it.
 
